@@ -54,6 +54,7 @@ a{
 /* body */
 body{
     background-color: #dedede;
+    min-width: 474px;
 }
 
 /* header */
@@ -96,9 +97,6 @@ nav ul li a:hover{
 }
 
 /* main */
-body{
-    min-width: 474px;
-}
 main>article, main>section, aside{
     margin: 20px 20px 0;
     padding: 40px 20px;

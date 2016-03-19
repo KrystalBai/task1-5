@@ -236,6 +236,10 @@ aside>div>div:last-child{
 .selfDes{
     vertical-align: top;
 }
+textarea{
+    width: 255px;
+    height: 90px;
+}
 .submit{
     width:100%;
     color: #fff;

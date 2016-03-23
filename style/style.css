@@ -263,34 +263,34 @@ footer{
 /* layout */
 @media screen and (min-width: 779px){
     /* 浮动法 */
-    /*main{*/
-    /*    width: 100%;*/
-    /*    float: left;*/
-    /*    margin-right: -476px;*/
-    /*    margin-bottom: 20px;*/
-    /*}*/
-    /*main>article, main>section{*/
-    /*    margin-right: 476px;*/
-    /*}*/
-    /*aside{*/
-    /*    width: 394px;*/
-    /*    float: right;*/
-    /*}*/
-    /*footer{*/
-    /*    clear: both;*/
-    /*}*/
-
-    /* 绝对定位法 */
     main{
-        margin-right: 456px;
-        min-width: 240px;
+        width: 100%;
+        float: left;
+        margin-right: -476px;
+        margin-bottom: 20px;
+    }
+    main>article, main>section{
+        margin-right: 476px;
     }
     aside{
-        top: 60px;
-        right: 0;
         width: 394px;
-        position: absolute;
+        float: right;
     }
+    footer{
+        clear: both;
+    }
+
+    /* 绝对定位法（IE不兼容） */
+    /*main{*/
+    /*    margin-right: 456px;*/
+    /*    min-width: 240px;*/
+    /*}*/
+    /*aside{*/
+    /*    top: 60px;*/
+    /*    right: 0;*/
+    /*    width: 394px;*/
+    /*    position: absolute;*/
+    /*}*/
 }
 
 
